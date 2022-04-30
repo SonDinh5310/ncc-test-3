@@ -1,0 +1,22 @@
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 1080px) {
+    .wrapper {
+        margin-bottom: 10px;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}

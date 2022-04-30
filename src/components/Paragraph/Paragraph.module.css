@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+}
+
+.wrapper_padding {
+    padding: 38px 10%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+@media (max-width: 913px) {
+    .wrapper_padding {
+        padding: 38px 5%;
+    }
+}
